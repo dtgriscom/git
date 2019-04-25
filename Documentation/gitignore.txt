@@ -40,8 +40,8 @@ precedence, the last matching pattern decides the outcome):
  * Patterns read from the file specified by the configuration
    variable `core.excludesFile`.
 
-Which file to place a pattern in depends on how the pattern is meant to
-be used.
+Which file to place a pattern in depends on how the pattern itself is meant to
+be shared:
 
  * Patterns which should be version-controlled and distributed to
    other repositories via clone (i.e., files that all developers will want
